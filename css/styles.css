@@ -1,0 +1,339 @@
+/* Body style */
+@font-face {
+  font-family: 'Colendra';
+  src: url('../assets/ColendraRegular.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Colendra';
+  src: url('../assets/ColendraBold.otf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../images/dot_background.png');
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: 'Colendra', sans-serif;   
+	font-size: 18pt;
+	line-height: 1.8em;
+	color: black;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Colendra', sans-serif;  
+	font-size: 18pt;
+	line-height: 1.8em;
+	color: black;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 12pt;
+	font-weight: 500;
+}
+
+p {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 12pt;
+}
+
+.button {
+	background-color: rgb(242,215,210);
+	box-shadow: 0px 1px 2px 0px;
+	border-radius: 20px;
+	border: none;
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	display: block;
+	width: 120px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Body style */
+
+
+
+/* Header style */
+header h1 {
+	color: rgb(113, 176,171);
+}
+
+header {
+	background-color: white;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	text-align: center;
+	padding: 10px;
+}
+/* Header style */
+
+
+
+/* Main style */
+main a {
+	text-decoration: none;
+	color: black;
+}
+
+main section ul {
+	list-style-type: circle;
+	width: 80%;
+	margin: 0 auto;
+}
+
+main section li {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 12pt;
+	font-style: italic;
+	padding: 2px;
+}
+
+main h1, main h2 {
+	text-align: center;
+}
+
+main section p {
+	margin: 10px;
+}
+
+main section{
+	background-color: white;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	border-radius: 20px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 20px;
+}
+
+span {
+	font-weight: 700;
+}
+
+.request {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.request h2 {
+	margin-top: 5px;
+}
+
+.request p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.request img{
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	margin-bottom: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center p {
+	margin: 5px;
+	font-size: 16px;
+}
+
+.pijl {
+	width: 15px;
+	float: right;
+}
+
+.comparekopje img {
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 20px;
+	width: 70px;
+	height: 70px;
+}
+
+.comparekopje {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.comparekopje h2 {
+	margin-top: 18px;
+}
+
+.cijfers {
+	display: flex;
+}
+
+.cijfers p {
+	text-align: center;
+}
+
+.cijfers div {
+	margin-top: 10px;
+}
+
+#notedfoto {
+	width: 300px;
+	border-radius: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.compare {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow: auto;
+	margin-left: 5px;
+}
+
+.compare img {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 20px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#klein {
+	font-size: 12px;
+}
+
+#compareall img {
+	width: 12px;
+	height: 12px;
+	opacity: 0.5;
+	margin-left: 3px;
+}
+
+#compareall {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.about-us {
+	padding: 20px;
+}
+
+.about-us h2 {
+	text-align: left;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.about-us p {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+}
+/* Main style */
+
+
+
+/* Footer style */
+footer {
+	background-color: rgb(113, 176,171);
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+	position: sticky;
+	bottom: 0;
+}
+
+footer nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer h3{
+	font-size: 14px;
+	margin-top: 2px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer nav section {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+footer nav section img {
+	width: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dikgedrukt {
+	font-weight: 700;
+}
+/* Footer style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
